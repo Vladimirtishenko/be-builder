@@ -19,13 +19,13 @@ npm i
 # 4) Launch development mode
 
 ```
-npm run dev // for unexpired domain
+npm run dev // for actual domain
 npm run dev_expired // for outdated domain
 ```
 
 # 5) Open in browser and make request to microservice
 
-* For unexpired domain use
+* For actual domain use
     ```
     http://localhost:3000/comments/main.752hfh77fhgy23f99fhsuyh
     http://localhost:3000/comments/about.752hfh77fhgy23f99fhsuyh
