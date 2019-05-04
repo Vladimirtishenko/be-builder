@@ -1,0 +1,21 @@
+{
+    "get": [
+        {
+            "path": "/domains/:domain",
+            "action": "getDomain"
+        },
+        {
+            "path": "/domains",
+            "action": "getAvailableDomains"
+        }
+    ],
+    "post": [
+        {
+            "path": "/domains/create",
+            "action": "setDomain"
+        }
+    ],
+    "patch": [],
+    "put": [],
+    "delete": []
+}

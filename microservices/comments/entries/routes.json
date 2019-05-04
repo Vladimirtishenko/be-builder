@@ -1,0 +1,17 @@
+{
+    "get": [
+        {
+            "path": "/comments/:pid",
+            "action": "getComments"
+        }
+    ],
+    "post": [
+        {
+            "path": "/comments/create",
+            "action": "setNewComment"
+        }
+    ],
+    "patch": [],
+    "put": [],
+    "delete": []
+}
