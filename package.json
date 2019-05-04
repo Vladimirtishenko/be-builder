@@ -14,7 +14,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "PORT=3000 nodemon ./gateway.js & PORT=3001 nodemon ./microservices/comments/app.js & PORT=3002 nodemon ./microservices/domains/app.js"
+    "dev": "PORT=3000 nodemon ./gateway.js & PORT=3001 nodemon ./microservices/comments/app.js & PORT=3002 nodemon ./microservices/domains/app.js",
+    "dev_expired": "PORT=3001 nodemon ./gateway.js & PORT=3002 nodemon ./microservices/comments/app.js & PORT=3003 nodemon ./microservices/domains/app.js"
   },
   "keywords": [],
   "author": "",
