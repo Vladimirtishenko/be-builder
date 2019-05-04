@@ -21,3 +21,11 @@ npm i
 ```
 npm run dev
 ```
+
+# 5) Open in browser and make request to microservice
+
+```
+http://localhost:3000/comments/main.752hfh77fhgy23f99fhsuyh
+http://localhost:3000/comments/about.752hfh77fhgy23f99fhsuyh
+
+```

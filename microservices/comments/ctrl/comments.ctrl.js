@@ -29,13 +29,13 @@ class Comments {
     async setNewComment(req, res, next){
         const {
             label,
-            key
+            key,
             rating,
             text
         } = req.body;
 
         if(!label || !key){
-
+            tatus(res, err.status || 500, 'You should pass right parametrs "label" and "key" ')
         }
 
         try {
