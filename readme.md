@@ -1,4 +1,4 @@
-# 1) Clear and fill database for ll microservices
+# 1) Clear and fill database for all microservices
 
 ```
 sh install/restore.sh // if your microservices are't located in microservices directory call script with folder name like: `sh install/restore.sh path_to_microservices`
